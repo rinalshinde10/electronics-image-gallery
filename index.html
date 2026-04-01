@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronics Image Gallary</title>
+    <title> Electronics Image Gallery</title>
+    <link rel="stylesheet" href="index.css"/>
+
+  
 </head>
 <body>
-    
+      <h1 class="heading">Electronics Image Gallery</h1>
+    <div class="gallery-container">
+      
+        <span class="btn-slide btn-left" onclick="slideleft()">❮</span>
+
+        <img src="https://png.pngtree.com/png-clipart/20250523/original/pngtree-modern-laptop-computer-with-screen-open-technology-digital-device-png-image_21059292.png" 
+        class="main-img"
+        alt="image 1"
+        id="main-image"/>
+
+        <span class="btn-slide btn-right" onclick="slideright()">❯</span>
+    </div>
+    <div class="gallery-preview" id="gallery-preview"></div>
+  
+    <script src="index.js"></script>
 </body>
 </html>
