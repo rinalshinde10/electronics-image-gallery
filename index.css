@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #135689, #021722);
+  min-height: 100vh;
+  margin: 0;
+}
+.heading{
+    font-size: 40px;
+    color: antiquewhite;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-img {
+  height: 150px;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.main-img:hover {
+  transform: scale(1.05);
+}
